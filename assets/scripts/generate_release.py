@@ -6,6 +6,7 @@ from rdflib.namespace import SKOS, RDF
 from datetime import datetime
 from collections import defaultdict
 import re
+import shutil
 
 DR_TITLES = {
     "DR_EU_886-2013": "SRTI - Safety-Related Traffic Information",
@@ -15,24 +16,25 @@ DR_TITLES = {
     "DR_EU_885-2013": "SSTP - Safe and Secure Truck Parking"
 }
 
-BADGES = {
-    "proposed": "![Status](https://img.shields.io/badge/status-proposed-ff9800)",         # Warm orange for a work-in-progress
-    "under review": "![Status](https://img.shields.io/badge/status-under_review-ffc107)", # Amber/gold to indicate scrutiny
-    "revised": "![Status](https://img.shields.io/badge/status-revised-673ab7)",   # Deep violet, bold for attention
-    "accepted": "![Status](https://img.shields.io/badge/status-accepted-2196f3)", # Classic blue for trust & clarity
-    "validated": "![Status](https://img.shields.io/badge/status-validated-4caf50)",   # Deep green for confirmation
-    "archived": "![Status](https://img.shields.io/badge/status-archived-bdbdbd)",# Medium grey for obsolescence
-    "unclassified": "![Status](https://img.shields.io/badge/status-unclassified-9e9e9e)"       # Neutral grey for ambiguity
-}
-
-BASE_DIR = Path(__file__).resolve().parent.parent
+BASE_DIR = Path(__file__).resolve().parent.parent.parent
 DRAFT_ROOT = BASE_DIR / "drafts"
+PREVIEW_DIR = BASE_DIR / "drafts/preview"
+INDEX_FILE = DRAFT_ROOT / "INDEX.md"
 RELEASE_DIR = BASE_DIR / "release"
 VOCAB_DIR = BASE_DIR / "vocab"
-
 VERSION_TAG = os.getenv("VERSION_TAG")
-
 EX = Namespace("http://example.org/dictionary#")
+
+BADGES = {
+    "proposed": "![Status](https://img.shields.io/badge/status-proposed-ffc107)", 
+    "ready for review": "![Status](https://img.shields.io/badge/status-ready_for_review-673ab7)", 
+    "under review": "![Status](https://img.shields.io/badge/status-under_review-2196f3)", 
+    "approved": "![Status](https://img.shields.io/badge/status-approved-4caf50)", 
+    "for thorough review": "![Status](https://img.shields.io/badge/for_thorough_review-ff9800)",
+    "archived": "![Status](https://img.shields.io/badge/status-archived-bdbdbd)",
+    "unclassified": "![Status](https://img.shields.io/badge/status-unclassified-9e9e9e)"
+}
+
 
 def escape_yaml_value(value):
     if not isinstance(value, str):
@@ -61,9 +63,9 @@ def escape_yaml_block(yaml_text):
 def extract_content(md_text):
 
     def adjust_relative_links(text):
-        # Replace "../../media/" with "../images/"
-        text = re.sub(r'\(\.\./\.\./(images/.*?)\)', r'(../\1)', text)
-        text = re.sub(r'\(\.\./\.\./(code/.*?)\)', r'(../\1)', text)
+        # Replace "../assets/img/" with "./assets/img/"
+        text = re.sub(r'\(\.\./(assets/img/.*?)\)', r'(./\1)', text)
+        text = re.sub(r'\(\.\./(assets/code/.*?)\)', r'(./\1)', text)
         return text
 
     parts = md_text.split('---')
@@ -105,6 +107,19 @@ def format_entry(meta, content, heading_level=3):
         return f"{header}{definition}\n\n{body}\n\n---\n"
     else:
         return f"{header}{definition}\n\n---\n"
+
+
+def copy_dir(src_path, dst_path):
+
+    # pokud cílový adresář už existuje, nejdřív ho smažeme
+    if os.path.exists(dst):
+        shutil.rmtree(dst_path)
+
+    # zkopírujeme celý adresář
+    shutil.copytree(src_path, dst_path)
+
+    print(f"Adresář '{src_path}' byl zkopírován do '{dst_path}'")
+
 
 def process_dr_folder(dr_folder):
   
@@ -161,7 +176,9 @@ def process_dr_folder(dr_folder):
 def main():
     os.makedirs(RELEASE_DIR, exist_ok=True)
     os.makedirs(VOCAB_DIR, exist_ok=True)
-
+    
+    copy_dir(DRAFT_ROOT / "assets", RELEASE_DIR / "assets")
+    
     for dr_folder in DRAFT_ROOT.iterdir():
         if dr_folder.is_dir():
             process_dr_folder(dr_folder)

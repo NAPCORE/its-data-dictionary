@@ -4,8 +4,6 @@
 ![License](https://img.shields.io/github/license/NAPCORE/its-data-dictionary?style=flat-square)
 ![Last Commit](https://img.shields.io/github/last-commit/NAPCORE/its-data-dictionary?style=flat-square)
 ![Issues](https://img.shields.io/github/issues/NAPCORE/its-data-dictionary?style=flat-square)
-![Build](https://github.com/NAPCORE/its-data-dictionary/actions/workflows/release.yml/badge.svg)
-![Build](https://github.com/NAPCORE/its-data-dictionary/actions/workflows/preview.yml/badge.svg)
 
 A structured dictionary of **transport-related concepts** defined in delegated regulations of the [ITS Directive](https://eur-lex.europa.eu/eli/dir/2010/40/oj/eng), managed in Markdown. Includes human-readable previews, releases and machine-readable RDF.
 This repository serves for development and publishing of the data dictionary. 
@@ -48,37 +46,19 @@ The work on **transport-related concepts** aka **data types** is done in the `dr
 
 ## 🚀 Workflow Automation 
 
-### 🔄 Preview auto-generation
+To create an updated index file [`drafts/INDEX.md`](drafts/INDEX.md) and preview files of data types definitions, one per delegated regulation `drafts/preview/DR_*.md` run:
 
-Triggered automatically on each push to:
-
-- `drafts/**`
-- `code/**`
-- `scripts/generate_preview.py`
-
-Generates:
-
-- [`drafts/INDEX.md`](drafts/INDEX.md) – an index file with links to individual data type file fragments with their statuses.
-- `drafts/preview/DR_*.md` – review file of data types definitions, one per delegated regulation
-- Commits updated previews back to the repository
-- Uploads preview files as GitHub Actions artifact
-
-### 🏁 Release auto-generation
-
-Triggered automatically when a version tag is pushed (e.g. `v1.0.0`):
+```bash
+uv run assets\scripts\generate_preview.py
+```
+To create new versioned release file of data types definitions, one per delegated regulation `release/DR_*.md` and SKOS-formatted RDF files from data types strict-definitions `vocab/<DR>/<item>.ttl` run:
 
 ```bash
 git tag v1.0.0
 git push origin v1.0.0
+
+uv run assets\scripts\generate_release.py
 ```
-
-Generates:
-
-- `release/DR_*.md` – versioned release file of data types definitions, one per delegated regulation
-- `vocab/<DR>/<item>.ttl` – SKOS-formatted RDF files from data types strict-definitions
-- Uploads files as a downloadable GitHub Actions artifact
-
-
 ## 💬 License & Contributions
 
 Open-source under the MIT License. Contributions are welcome—just submit a PR or open an issue.

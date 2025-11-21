@@ -62,8 +62,8 @@ def extract_content(md_text):
 
     def adjust_relative_links(text):
         # Replace "../../folder/" with "../folder/"
-        text = re.sub(r'\(\.\./\.\./(images/.*?)\)', r'(../\1)', text)
-        text = re.sub(r'\(\.\./\.\./(code/.*?)\)', r'(../\1)', text)
+        text = re.sub(r'\(\.\./\.\./(assets/img/.*?)\)', r'(../\1)', text)
+        text = re.sub(r'\(\.\./\.\./(assets/code/.*?)\)', r'(../\1)', text)
         return text
 
     parts = md_text.split('---')
@@ -78,7 +78,7 @@ def extract_content(md_text):
         return None, md_text
 
     content = '---'.join(parts[2:]).strip()
-    content = adjust_relative_links(content)
+    # content = adjust_relative_links(content) no need preview and dict items have same level of structure
 
     return meta, content
 
