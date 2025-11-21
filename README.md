@@ -1,11 +1,11 @@
 # NAPCORE ITS Data Dictionary 📚
 
-![Version](https://img.shields.io/github/v/tag/napcore/its-data-dictionary?label=version&style=flat-square)
-![License](https://img.shields.io/github/license/napcore/its-data-dictionary?style=flat-square)
-![Last Commit](https://img.shields.io/github/last-commit/napcore/its-data-dictionary?style=flat-square)
-![Issues](https://img.shields.io/github/issues/napcore/its-data-dictionary?style=flat-square)
-![Build](https://github.com/napcore/its-data-dictionary/actions/workflows/release.yml/badge.svg)
-![Build](https://github.com/napcore/its-data-dictionary/actions/workflows/preview.yml/badge.svg)
+![Version](https://img.shields.io/github/v/tag/NAPCORE/its-data-dictionary?label=version&style=flat-square)
+![License](https://img.shields.io/github/license/NAPCORE/its-data-dictionary?style=flat-square)
+![Last Commit](https://img.shields.io/github/last-commit/NAPCORE/its-data-dictionary?style=flat-square)
+![Issues](https://img.shields.io/github/issues/NAPCORE/its-data-dictionary?style=flat-square)
+![Build](https://github.com/NAPCORE/its-data-dictionary/actions/workflows/release.yml/badge.svg)
+![Build](https://github.com/NAPCORE/its-data-dictionary/actions/workflows/preview.yml/badge.svg)
 
 A structured dictionary of **transport-related concepts** defined in delegated regulations of the [ITS Directive](https://eur-lex.europa.eu/eli/dir/2010/40/oj/eng), managed in Markdown. Includes human-readable previews, releases and machine-readable RDF.
 This repository serves for development and publishing of the data dictionary. 
@@ -16,11 +16,11 @@ Data Dictionary items are grouped by delegated regulation they appear in to the 
 
 | Abbreviation | Full Title & Regulation No.                          | 📂 Link                     |
 |--------------|------------------------------------------------------|-----------------------------|
-| 🛑 **SRTI**  | Safety-Related Traffic Information *(DR 886/2013)*   | [View Vocabulary →](.release/DR_EU_886-2013.md) |
-| 🧭 **MMTIS** | Multimodal Travel Information Services *(DR 2024/490)* | [View Vocabulary →](.release/DR_EU_2024-490.md) |
-| 🚙 **RTTI**  | Real-Time Traffic Information *(DR 2015/962)*        | [View Vocabulary →](.release/DR_EU_2015-962.md) |
-| 🚙 **RTTI**  | Real-Time Traffic Information *(DR 2022/670)*        | [View Vocabulary →](.release/DR_EU_2022-670.md) |
-| 🏁 **SSTP**  | Safe and Secure Truck Parking *(DR 885/2013)*       | [View Vocabulary →](.release/DR_EU_885-2013.md) |
+| 🛑 **SRTI**  | Safety-Related Traffic Information *(DR 886/2013)*   | [View Vocabulary →](./release/DR_EU_886-2013.md) |
+| 🧭 **MMTIS** | Multimodal Travel Information Services *(DR 2024/490)* | [View Vocabulary →](./release/DR_EU_2024-490.md) |
+| 🚙 **RTTI**  | Real-Time Traffic Information *(DR 2015/962)*        | [View Vocabulary →](./release/DR_EU_2015-962.md) |
+| 🚙 **RTTI**  | Real-Time Traffic Information *(DR 2022/670)*        | [View Vocabulary →](./release/DR_EU_2022-670.md) |
+| 🏁 **SSTP**  | Safe and Secure Truck Parking *(DR 885/2013)*       | [View Vocabulary →](./release/DR_EU_885-2013.md) |
 
 NOTE: release could be also accessed as a downloadable artefact in releases GitHub functionality.
 
