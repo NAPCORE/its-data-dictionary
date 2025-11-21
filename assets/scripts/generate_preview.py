@@ -17,19 +17,19 @@ DR_TITLES = {
     "DR_EU_885-2013": "SSTP - Safe and Secure Truck Parking"
 }
 
-BASE_DIR = Path(__file__).resolve().parent.parent
+BASE_DIR = Path(__file__).resolve().parent.parent.parent
 DRAFT_ROOT = BASE_DIR / "drafts"
-PREVIEW_DIR = BASE_DIR / "preview"
-INDEX_FILE = PREVIEW_DIR / "INDEX.md"
+PREVIEW_DIR = BASE_DIR / "drafts/preview"
+INDEX_FILE = DRAFT_ROOT / "INDEX.md"
 
 BADGES = {
-    "proposed": "![Status](https://img.shields.io/badge/status-proposed-ff9800)",         # Warm orange for a work-in-progress
-    "under review": "![Status](https://img.shields.io/badge/status-under_review-ffc107)", # Amber/gold to indicate scrutiny
-    "revised": "![Status](https://img.shields.io/badge/status-revised-673ab7)",   # Deep violet, bold for attention
-    "accepted": "![Status](https://img.shields.io/badge/status-accepted-2196f3)", # Classic blue for trust & clarity
-    "validated": "![Status](https://img.shields.io/badge/status-validated-4caf50)",   # Deep green for confirmation
-    "archived": "![Status](https://img.shields.io/badge/status-archived-bdbdbd)",# Medium grey for obsolescence
-    "unclassified": "![Status](https://img.shields.io/badge/status-unclassified-9e9e9e)"       # Neutral grey for ambiguity
+    "proposed": "![Status](https://img.shields.io/badge/status-proposed-ffc107)", 
+    "ready for review": "![Status](https://img.shields.io/badge/status-ready_for_review-673ab7)", 
+    "under review": "![Status](https://img.shields.io/badge/status-under_review-2196f3)", 
+    "approved": "![Status](https://img.shields.io/badge/status-approved-4caf50)", 
+    "for thorough review": "![Status](https://img.shields.io/badge/for_thorough_review-ff9800)",
+    "archived": "![Status](https://img.shields.io/badge/status-archived-bdbdbd)",
+    "unclassified": "![Status](https://img.shields.io/badge/status-unclassified-9e9e9e)"
 }
 
 index_entries= []
@@ -61,7 +61,7 @@ def escape_yaml_block(yaml_text):
 def extract_content(md_text):
 
     def adjust_relative_links(text):
-        # Replace "../../media/" with "../images/"
+        # Replace "../../folder/" with "../folder/"
         text = re.sub(r'\(\.\./\.\./(images/.*?)\)', r'(../\1)', text)
         text = re.sub(r'\(\.\./\.\./(code/.*?)\)', r'(../\1)', text)
         return text
@@ -84,7 +84,7 @@ def extract_content(md_text):
 
 def format_entry(meta, content, dr_folder, heading_level=3):
     # header = f"{'#' * heading_level} {meta.get('label', 'Untitled')} \n\n"
-    link = f"[-->](../drafts/{dr_folder.name}/{meta.get('id', '').strip()}.md)"
+    link = f"[-->](../../drafts/{dr_folder.name}/{meta.get('id', '').strip()}.md)"
     header = f"{'#' * heading_level} {meta.get('label', 'Untitled')} {BADGES.get(meta.get('status', 'unclassified').strip(), 'unclassified')} {link}\n\n"
 
     definition_text = meta.get("definition") or ""
@@ -109,6 +109,9 @@ def process_dr_folder(dr_folder):
             raw = f.read()
 
         meta, body = extract_content(raw)
+        
+        print(md_file)
+        
         if not meta:
             print(f"⏩ Skipping {md_file.name} in {dr_folder.name} ... missing metadata")
             continue
@@ -155,10 +158,13 @@ def process_dr_folder(dr_folder):
         print(f"⚠️ No approved items found in {dr_folder.name}")
  
 def main():
+    
+    print(BASE_DIR, DRAFT_ROOT, PREVIEW_DIR, INDEX_FILE, sep=" | ")
+    
     os.makedirs(PREVIEW_DIR, exist_ok=True)
     
     for dr_folder in DRAFT_ROOT.iterdir():
-        if dr_folder.is_dir():
+        if dr_folder.is_dir() and dr_folder.name.startswith("DR"):
             process_dr_folder(dr_folder)
 
     # Generuj badge shrnutí statusů
