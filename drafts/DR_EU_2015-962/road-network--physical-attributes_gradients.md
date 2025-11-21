@@ -4,7 +4,8 @@ label: gradients
 definition: the minimum information required for indicating the degree of inclination (or the rate ascent/descent) of a road network’s links.
 category: Static data
 language: en
-status: proposed
+status: archived
+note: deprecated by DR_EU_2022-670/gradients
 source: DR_EU_2015-962
 subcategory:
   - Road network links and their physical attributes

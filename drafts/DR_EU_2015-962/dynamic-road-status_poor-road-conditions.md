@@ -4,7 +4,8 @@ label: poor road conditions
 definition: dynamic information disseminating the prevalence of poor conditions on a specific segment/section of a road link (or on the entire road link).
 category: Dynamic data
 language: en
-status: proposed
+status: archived
+note: deprecated by DR_EU_2022-670/poor road conditions
 source: DR_EU_2015-962
 subcategory:
   - Dynamic road status

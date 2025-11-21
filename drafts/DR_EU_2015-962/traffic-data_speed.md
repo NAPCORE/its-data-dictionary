@@ -4,7 +4,8 @@ label: speed
 definition: dynamic information indicating the travel speed of vehicles passing from a specific point or along a specific road segment within a given time aggregation interval.
 category: Dynamic data
 language: en
-status: proposed
+status: archived
+note: deprecated by DR_EU_2022-670/traffic speed
 source: DR_EU_2015-962
 subcategory:
   - Traffic data

@@ -4,7 +4,8 @@ label: travel times
 definition: dynamic information indicating the time required for observed vehicles to cross a specific road link or to travel from a given point to another over a specified route under prevailing traffic conditions.
 category: Dynamic data
 language: en
-status: proposed
+status: archived
+note: deprecated by DR_EU_2022-670/travel times
 source: DR_EU_2015-962
 subcategory:
   - Traffic data

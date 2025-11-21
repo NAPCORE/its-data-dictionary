@@ -4,7 +4,8 @@ label: availability of delivery areas
 definition: dynamic information reflecting the availability of designated places along a road network reserved for loading/unloading operations.
 category: Dynamic data
 language: en
-status: proposed
+status: archived
+note: deprecated by DR_EU_2022-670/availability of delivery areas
 source: DR_EU_2015-962
 subcategory:
   - Dynamic road status

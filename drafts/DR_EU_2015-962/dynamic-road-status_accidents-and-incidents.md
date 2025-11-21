@@ -4,7 +4,8 @@ label: accidents and incidents
 definition: dynamic information disseminating the occurrence of an accident or incident on a specific segment/section of a road link.
 category: Dynamic data
 language: en
-status: proposed
+status: archived
+note: deprecated by DR_EU_2022-670/accidents and incidents
 source: DR_EU_2015-962
 subcategory:
   - Dynamic road status

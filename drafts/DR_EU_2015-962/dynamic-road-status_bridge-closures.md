@@ -4,7 +4,8 @@ label: bridge closures
 definition: dynamic information disseminating the closure of road links corresponding to bridges.
 category: Dynamic data
 language: en
-status: proposed
+status: archived
+note: deprecated by DR_EU_2022-670/availability of recharging points and stations for electric vehicles
 source: DR_EU_2015-962
 subcategory:
   - Dynamic road status
