@@ -4,7 +4,7 @@ label: basic commercial conditions such as refunding, replacing, exchanging or t
 definition: the minimum set of information about basic commercial conditions required for supporting fare queries.
 category: Level of service 3
 language: en
-status: under review
+status: proposed
 source: DR_EU_2024-490
 subcategory:
   - Detailed common standard and special fare query

@@ -4,7 +4,7 @@ label: consent to publish contact information of the parking operator (for truck
 definition: an appropriate value reflecting whether a parking operator agrees (or not) to make his/her contact information visible to the public.
 category: Static data
 language: en
-status: revised
+status: proposed
 source: DR_EU_885-2013
 ---
 

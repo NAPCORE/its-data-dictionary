@@ -4,7 +4,7 @@ label: length of, and when possible the reason for, delays in departure of more 
 definition: 
 category: Level of Service 4
 language: en
-status: under review
+status: proposed
 source: DR_EU_2024-490
 subcategory:
   - Observed data on delays and passing time

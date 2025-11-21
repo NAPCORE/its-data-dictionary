@@ -4,7 +4,7 @@ label: where and how to pay for parking, including retail channels, fulfilment m
 definition: the minimum set of information required for describing the way to pay for parking, including the location as well as the supported payment and fulfilment methods.
 category: Level of service 2
 language: en
-status: under review
+status: proposed
 source: DR_EU_2024-490
 subcategory:
   - Information service

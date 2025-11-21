@@ -4,7 +4,7 @@ label: basic booking conditions, such as purchase windows, validity periods, rou
 definition: the minimum set of information required for describing basic booking conditions.
 category: Level of service 3
 language: en
-status: under review
+status: proposed
 source: DR_EU_2024-490
 subcategory:
   - Detailed common standard and special fare query

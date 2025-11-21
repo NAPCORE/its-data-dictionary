@@ -4,7 +4,7 @@ label: accessibility of access nodes, and paths within an interchange (such as e
 definition: the minimum information required for indicating the accessibility conditions of access nodes as well as the conditions for transferring between vehicles, essential for trip plan computation purposes.
 category: Level of Service 1
 language: en
-status: under review
+status: proposed
 source: DR_EU_2024-490
 subcategory:
   - Trip plan computation

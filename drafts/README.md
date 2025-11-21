@@ -48,7 +48,7 @@ label: road classification
 definition: the minimum information required for distinguishing the links of a road network encompassing form of way, functional, or other concerns.
 category: Types of data on infrastructure
 language: en
-status: accepted
+status: proposed
 source: DR_EU_2022-670
 ---
 
@@ -72,7 +72,7 @@ label: road width
 definition: the minimum information required for indicating the width of a road network’s links.
 category: Types of data on infrastructure
 language: en
-status: accepted
+status: proposed
 source: DR_EU_2022-670
 subcategory:
   - Road network links and their physical attributes

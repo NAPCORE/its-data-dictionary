@@ -4,7 +4,7 @@ label: identified access nodes
 definition: the minimum information required to identify the location of stop or other specific places from which travellers can access scheduled or on-demand transport modes.
 category: Level of Service 1
 language: en
-status: under review
+status: proposed
 source: DR_EU_2024-490
 subcategory:
   - Location search (access nodes)

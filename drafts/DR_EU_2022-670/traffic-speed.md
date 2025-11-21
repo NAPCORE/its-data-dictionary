@@ -4,7 +4,7 @@ label: traffic speed
 definition: dynamic information indicating the travel speed of vehicles passing from a specific point or along a specific road segment within a given time aggregation interval.
 category: Types of data on the real-time use of the network
 language: en
-status: accepted
+status: proposed
 source: DR_EU_2022-670
 ---
 

@@ -4,7 +4,7 @@ label: cancellations, and when possible the reason, of sea and inland waterways 
 definition: 
 category: Level of Service 4
 language: en
-status: under review
+status: proposed
 source: DR_EU_2024-490
 subcategory:
   - Observed data on cancellations

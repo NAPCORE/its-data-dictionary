@@ -4,7 +4,7 @@ label: car parking spaces available (on and off-street)
 definition: the minimum dynamic information required for disseminating the availability of on-street and off-street car parking space.
 category: Level of service 2
 language: en
-status: under review
+status: proposed
 source: DR_EU_2024-490
 subcategory:
   - Availability check and location

@@ -4,7 +4,7 @@ label: location information of the entry point in the truck parking area
 definition: the minimum information required for indicating the position of the entry point of a truck parking area.
 category: Static data
 language: en
-status: accepted
+status: proposed
 source: DR_EU_885-2013
 ---
 

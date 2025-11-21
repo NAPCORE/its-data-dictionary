@@ -4,7 +4,7 @@ label: existence of assistance services (such as existence of on-site assistance
 definition: the minimum information required for describing assistance services, essential for trip plan computation purposes.
 category: Level of Service 1
 language: en
-status: under review
+status: proposed
 source: DR_EU_2024-490
 subcategory:
   - Trip plan computation

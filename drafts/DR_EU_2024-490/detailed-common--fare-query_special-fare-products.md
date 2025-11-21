@@ -4,7 +4,7 @@ label: special fare products (offers with additional special conditions such as 
 definition: the minimum set of information about special fare products required for supporting fare queries.
 category: Level of service 3
 language: en
-status: under review
+status: proposed
 source: DR_EU_2024-490
 subcategory:
   - Detailed common standard and special fare query

@@ -4,7 +4,7 @@ label: distance from primary road
 definition: the distance (typically in meters) between the exit to be taken and the entry point of a truck parking area.
 category: Static data
 language: en
-status: accepted
+status: proposed
 source: DR_EU_885-2013
 ---
 

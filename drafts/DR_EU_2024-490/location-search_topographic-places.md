@@ -4,7 +4,7 @@ label: topographic places (city, town, village, suburb, administrative unit)
 definition: the minimum information required for matching wider locations (e.g., areas, regions, localities, cities, suburbs, towns, administrative units, or settlements) as trip origins and destinations based on their name.
 category: Level of Service 1
 language: en
-status: under review
+status: proposed
 source: DR_EU_2024-490
 subcategory:
   - Location search (origin_destination)

@@ -4,7 +4,7 @@ label: car-sharing availability and location, bike-sharing availability and loca
 definition: information disseminating the availability of shared vehicles (e.g., car, bike, scooter) at a specific location (dedicated to vehicle sharing).
 category: Level of service 2
 language: en
-status: under review
+status: proposed
 source: DR_EU_2024-490
 subcategory:
   - Availability check and location

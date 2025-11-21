@@ -4,7 +4,7 @@ label: dynamic speed limits
 definition: dynamic information disseminating temporary changes in the speed limit applying on a specific segment (or on the entire road link).
 category: Dynamic data
 language: en
-status: accepted
+status: proposed
 source: DR_EU_2015-962
 subcategory:
   - Dynamic road status

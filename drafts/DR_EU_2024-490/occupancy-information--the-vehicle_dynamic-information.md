@@ -4,7 +4,7 @@ label: dynamic information indicating the occupancy of vehicles of scheduled and
 definition:
 category: Level of service 3
 language: en
-status: under review
+status: proposed
 source: DR_EU_2024-490
 subcategory:
   - Occupancy information of the vehicle

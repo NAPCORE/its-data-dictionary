@@ -4,7 +4,7 @@ label: lane closures
 definition: dynamic information disseminating the closure of a lane on road links of any type.
 category: Crucial types of data on the state of the network
 language: en
-status: accepted
+status: proposed
 source: DR_EU_2022-670
 ---
 

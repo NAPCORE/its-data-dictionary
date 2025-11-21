@@ -4,7 +4,7 @@ label: cost of parking
 definition: dynamic information reflecting the applicable cost of parking on charged parking infrastructure.
 category: Dynamic data
 language: en
-status: accepted
+status: proposed
 source: DR_EU_2015-962
 subcategory:
   - Dynamic road status

@@ -4,7 +4,7 @@ label: location of compressed natural gas, liquefied natural gas, liquefied petr
 definition: the minimum information required for disseminating the geographic location of compressed natural gas, liquefied natural gas, liquefied petroleum gas and hydrogen refueling stations.
 category: Static data
 language: en
-status: accepted
+status: proposed
 source: DR_EU_2015-962
 ---
 

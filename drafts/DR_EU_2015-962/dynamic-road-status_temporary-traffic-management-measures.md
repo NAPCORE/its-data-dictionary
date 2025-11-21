@@ -4,7 +4,7 @@ label: temporary traffic management measures
 definition: dynamic information disseminating temporary traffic management measures in response to the current state of or conditions on particular segments, links, or parts of the road network, which can change over time due to several factors (e.g., road works, weather conditions, special events).
 category: Dynamic data
 language: en
-status: accepted
+status: proposed
 source: DR_EU_2015-962
 subcategory:
   - Dynamic road status

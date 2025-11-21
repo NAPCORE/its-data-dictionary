@@ -4,7 +4,7 @@ label: the minimum dynamic information providing insight into the operational st
 definition:
 category: Level of service 1
 language: en
-status: under review
+status: proposed
 source: DR_EU_2024-490
 subcategory:
   - Passing times, trip plans and auxiliary information

@@ -4,7 +4,7 @@ label: location of charging points for electric vehicles and the conditions for 
 definition: the minimum information required for disseminating the geographic location of charging infrastructure (charging pools), dedicated to electric vehicles, including the exact position of charging points along with the conditions for their use.
 category: Static data
 language: en
-status: accepted
+status: proposed
 source: DR_EU_2015-962
 ---
 

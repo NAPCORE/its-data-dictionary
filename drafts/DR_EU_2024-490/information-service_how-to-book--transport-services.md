@@ -4,7 +4,7 @@ label: how to book demand-responsive transport services, including retail channe
 definition: the minimum information required to describe the way of booking demand-responsive transport services such as car-sharing, taxi and cycle-hiring services.
 category: Level of service 3
 language: en
-status: under review
+status: proposed
 source: DR_EU_2024-490
 subcategory:
   - Information service

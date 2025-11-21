@@ -4,7 +4,7 @@ label: addresses (building number, street name, postcode)
 definition: the minimum information required for matching specific locations (mainly properties) as trip origins and destinations based on their address.
 category: Level of Service 1
 language: en
-status: under review
+status: proposed
 source: DR_EU_2024-490
 subcategory:
   - Location search (origin_destination)

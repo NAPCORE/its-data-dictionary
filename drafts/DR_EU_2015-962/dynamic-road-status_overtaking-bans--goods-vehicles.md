@@ -4,7 +4,7 @@ label: overtaking bans on heavy goods vehicles
 definition: dynamic information disseminating the prohibition of overtaking by heavy goods vehicles on specific segments of a road link (or on the entire link) due to adverse on-going conditions.
 category: Dynamic data
 language: en
-status: accepted
+status: proposed
 source: DR_EU_2015-962
 subcategory:
   - Dynamic road status

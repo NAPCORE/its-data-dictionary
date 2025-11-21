@@ -4,7 +4,7 @@ label: other static and dynamic traffic regulations
 definition: the minimum information required for disseminating and describing the content of other traffic rules and driving regulations that are either permanent (static) or changeable over time (dynamic), considering ongoing events and prevailing conditions.
 category: Other types of data on regulations and restrictions
 language: en
-status: accepted
+status: proposed
 source: DR_EU_2022-670
 ---
 

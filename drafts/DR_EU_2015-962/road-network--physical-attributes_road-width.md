@@ -4,7 +4,7 @@ label: road width
 definition: the minimum information required for indicating the width of a road network’s links.
 category: Static data
 language: en
-status: revised
+status: proposed
 source: DR_EU_2015-962
 subcategory:
   - Road network links and their physical attributes

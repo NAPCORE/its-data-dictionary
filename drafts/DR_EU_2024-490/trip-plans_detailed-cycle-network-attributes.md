@@ -4,7 +4,7 @@ label: detailed cycle network attributes (surface quality, side-by-side cycling,
 definition: the minimum set of information required for describing the attributes of a cycle network (physical and logical arrangement of nodes and links).
 category: Level of service 3
 language: en
-status: under review
+status: proposed
 source: DR_EU_2024-490
 subcategory:
   - Trip plans

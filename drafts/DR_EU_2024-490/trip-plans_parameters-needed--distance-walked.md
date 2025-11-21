@@ -4,7 +4,7 @@ label: parameters needed to calculate an environmental factor such as greenhouse
 definition: the minimum set of information required for enabling the estimation of the environmental footprint of a trip.
 category: Level of service 3
 language: en
-status: under review
+status: proposed
 source: DR_EU_2024-490
 subcategory:
   - Trip plans

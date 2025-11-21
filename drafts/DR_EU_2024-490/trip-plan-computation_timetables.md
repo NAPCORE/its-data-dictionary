@@ -4,7 +4,7 @@ label: timetables
 definition: (_scheduled transport modes_) the minimum information required for indicating the planned passing times of scheduled transport services’ vehicles, essential for trip plan computation purposes; (_on-demand transport_)<sup id="fn4">[4](#ref4)</sup> the minimum information required for indicating the operation times, hours of operation, geographical extend (zones, flexible stops), and further limitations of “dial-a-ride services”; (_vehicle pooling_) the minimum information required for indicating the scheduled transportation times, routes/lines (topology), and further limitations of vehicle-pooling.
 category: Level of Service 1
 language: en
-status: under review
+status: proposed
 source: DR_EU_2024-490
 subcategory:
   - Trip plan computation

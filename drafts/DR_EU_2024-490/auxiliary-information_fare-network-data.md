@@ -4,7 +4,7 @@ label: fare network data (fare zones/stops and fare stages)
 definition: the minimum information required for describing the layout of a fare network, such as the zones of which it is comprised.
 category: Level of service 2
 language: en
-status: under review
+status: proposed
 source: DR_EU_2024-490
 subcategory:
   - Auxiliary information

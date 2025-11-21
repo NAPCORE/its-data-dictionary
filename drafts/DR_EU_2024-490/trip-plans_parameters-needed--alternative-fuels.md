@@ -4,7 +4,7 @@ label: parameters needed to calculate fuel consumption of conventional and alter
 definition: the minimum set of information required for estimating costs related to fuel consumption.
 category: Level of service 3
 language: en
-status: under review
+status: proposed
 source: DR_EU_2024-490
 subcategory:
   - Trip plans

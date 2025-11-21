@@ -4,7 +4,7 @@ label: hours of operation
 definition: the minimum information required for indicating the time validity – hours of operation of scheduled or on demand transport services, essential for trip plan computation purposes.
 category: Level of Service 1
 language: en
-status: under review
+status: proposed
 source: DR_EU_2024-490
 subcategory:
   - Trip plan computation

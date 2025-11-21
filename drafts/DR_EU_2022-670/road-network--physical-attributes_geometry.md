@@ -4,7 +4,7 @@ label: geometry
 definition: the minimum information required for representing in a centerline or more precise manner the geometry of a road network’s links that connect two positions and therefore form a continuous path (without branches).
 category: Types of data on infrastructure
 language: en
-status: accepted
+status: proposed
 source: DR_EU_2022-670
 subcategory:
   - Road network links and their physical attributes

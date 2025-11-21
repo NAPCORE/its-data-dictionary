@@ -4,7 +4,7 @@ label: road closures
 definition: dynamic information disseminating the closure of road links of any type.
 category: Dynamic data
 language: en
-status: accepted
+status: proposed
 source: DR_EU_2015-962
 subcategory:
   - Dynamic road status

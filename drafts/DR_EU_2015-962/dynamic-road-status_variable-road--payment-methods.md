@@ -4,7 +4,7 @@ label: variable road user charges and available payment methods
 definition: dynamic information disseminating variable road user charges responding to a congestion/emission pricing policy scheme and the available payment methods.
 category: Dynamic data
 language: en
-status: accepted
+status: proposed
 source: DR_EU_2015-962
 subcategory:
   - Dynamic road status

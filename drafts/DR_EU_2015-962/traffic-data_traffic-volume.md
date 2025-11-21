@@ -4,7 +4,7 @@ label: traffic volume
 definition: dynamic information indicating the number of vehicles, distinguished (or not) into light and heavy vehicles, passing through a specific point (road section) within a specified time period per direction.
 category: Dynamic data
 language: en
-status: accepted
+status: proposed
 source: DR_EU_2015-962
 subcategory:
   - Traffic data

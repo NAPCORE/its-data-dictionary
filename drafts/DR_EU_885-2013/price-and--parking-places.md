@@ -4,7 +4,7 @@ label: price and currency of truck parking places
 definition: the minimum information required for disseminating the (possibly time dependent) cost of parking and the applicable currency.
 category: Static data
 language: en
-status: accepted
+status: proposed
 source: DR_EU_885-2013
 ---
 

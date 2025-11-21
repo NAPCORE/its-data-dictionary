@@ -4,7 +4,7 @@ label: dynamic data on the availability of parking places
 definition: dynamic information reflecting the state and status of a truck parking area.
 category: Dynamic data
 language: en
-status: accepted
+status: proposed
 source: DR_EU_885-2013
 ---
 

@@ -4,7 +4,7 @@ label: delay
 definition: 
 category: Level of Service 4
 language: en
-status: under review
+status: proposed
 source: DR_EU_2024-490
 subcategory:
   - Historic travel and traffic data on delays

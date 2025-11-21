@@ -4,7 +4,7 @@ label: location of recharging points for electric vehicles and the conditions fo
 definition: the minimum information required for disseminating the geographic location of recharging infrastructure (recharging pools), dedicated to electric vehicles, including the exact position of recharging points along with the conditions for their use.
 category: Types of data on infrastructure
 language: en
-status: accepted
+status: proposed
 source: DR_EU_2022-670
 ---
 

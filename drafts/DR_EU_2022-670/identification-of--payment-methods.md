@@ -4,7 +4,7 @@ label: identification of tolled roads, applicable fixed road user charges and av
 definition: the minimum information required for indicating that tolls apply on a road link as well as for disseminating information about the applicable road user charges and available payment methods.
 category: Other types of data on regulations and restrictions
 language: en
-status: accepted
+status: proposed
 source: DR_EU_2022-670
 ---
 

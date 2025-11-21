@@ -4,7 +4,7 @@ label: minimum dynamic information on parking tariffs
 definition: 
 category: Level of service 2
 language: en
-status: under review
+status: proposed
 source: DR_EU_2024-490
 subcategory:
   - Information service on parking tariffs

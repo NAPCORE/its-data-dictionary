@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PublicationDelivery xmlns="http://www.netex.org.uk/netex" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.netex.org.uk/netex file:///C:/Users/ue71603/MG_Daten/github/NeTEx1/xsd/netex_publication.xsd">
+  <PublicationTimestamp>2024-05-18T18:12:00</PublicationTimestamp>
+  <ParticipantRef>MMTIS-Test</ParticipantRef>
+  <dataObjects>
+    <CompositeFrame id="cf" version="1.0">
+      <frames>
+        <SiteFrame id="sf" version="1.0">
+          <pointsOfInterest>
+            <PointOfInterest id="fr:PointOfInterest:1881-12-122-9" version="1.0">
+              <keyList>
+                <KeyValue>
+                  <Key>OSM</Key>
+                  <Value>5013364</Value>
+                </KeyValue>
+              </keyList>            
+              <privateCodes>
+                <PrivateCode>fr:monuments:1831812</PrivateCode> <!--main identifier -->
+              </privateCodes>
+              <Name>Tour d'Eiffel</Name>
+              <Centroid>
+                <Location>
+                  <Longitude>48.85822</Longitude>
+                  <Latitude>2.2945</Latitude>
+                </Location>
+              </Centroid>
+              <AccessibilityAssessment id="fr:AccessibilityAssessment:181-31-31-221" version="1.0">
+                <MobilityImpairedAccess>true</MobilityImpairedAccess>
+              </AccessibilityAssessment>
+              <Landmark>true</Landmark>
+              <PublicUse>all</PublicUse>
+              <AllAreasWheelchairAccessible>true</AllAreasWheelchairAccessible>
+              <TopographicPlaceRef ref="fr:TP:183819-1231"/>
+              <AuthorityRef ref="CityOfParis"/>
+              <entrances>
+                <EntranceRef ref="fr:Entrance:12312319871"/>
+              </entrances>
+              <localServices>
+                <AssistanceServiceRef ref="fr:AssistanceService:18381923191-123"/>
+              </localServices>
+              <classifications>
+                <PointOfInterestClassificationRef ref="fr:PoIC:monument" version="1.0"/>
+              </classifications>
+            </PointOfInterest>  
+          </pointsOfInterest>
+          <pointOfInterestClassifications>
+            <PointOfInterestClassification id="fr:PoIC:monument" version="1.0">
+              <privateCodes>
+                <PrivateCode type="OSM">historic:monument</PrivateCode>
+              </privateCodes>
+              <Name>National Monument</Name>
+              <Description>National monument</Description>
+            </PointOfInterestClassification>
+          </pointOfInterestClassifications>
+        </SiteFrame>
+      </frames>
+    </CompositeFrame>
+  </dataObjects>
+</PublicationDelivery>

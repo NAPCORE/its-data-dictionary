@@ -4,7 +4,7 @@ label: vehicle facilities, including classes of carriage, on-board Wi-Fi, capaci
 definition: the minimum information required to describe the available facilities/amenities offered by a public transport mode.
 category: Level of service 2
 language: en
-status: under review
+status: proposed
 source: DR_EU_2024-490
 subcategory:
   - Auxiliary information

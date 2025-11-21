@@ -4,7 +4,7 @@ label: location of parking places (on and off-street), including accessible park
 definition: the minimum information required for identifying the location of on-street or off-street places designated for parking vehicles.
 category: Level of service 2
 language: en
-status: under review
+status: proposed
 source: DR_EU_2024-490
 subcategory:
   - Location search

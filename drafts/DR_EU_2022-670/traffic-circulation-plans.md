@@ -4,7 +4,7 @@ label: traffic circulation plans
 definition: the minimum information required for disseminating and describing the content of plans that are developed by local authorities to control and guide traffic flows in response to known and recurring traffic conditions as well as in consideration of seasonality effects and existing limitation and constraints (e.g., existence of school zones).
 category: Crucial types of data on regulations and restrictions
 language: en
-status: accepted
+status: proposed
 source: DR_EU_2022-670
 ---
 

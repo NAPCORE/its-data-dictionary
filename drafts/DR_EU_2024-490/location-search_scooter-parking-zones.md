@@ -4,7 +4,7 @@ label: scooter parking zones
 definition: the minimum information required for identifying the location of scooter parking zones (guarded and unguarded).
 category: Level of service 2
 language: en
-status: under review
+status: proposed
 source: DR_EU_2024-490
 subcategory:
   - Location search

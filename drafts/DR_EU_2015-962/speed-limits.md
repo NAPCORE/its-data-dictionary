@@ -4,7 +4,7 @@ label: speed limits
 definition: the minimum information required for describing the speed limits (minimum and/or maximum) that apply on a road network link given a set of applicable conditions.
 category: Static data
 language: en
-status: accepted
+status: proposed
 source: DR_EU_2015-962
 ---
 

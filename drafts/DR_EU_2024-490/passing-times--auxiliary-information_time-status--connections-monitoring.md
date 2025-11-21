@@ -4,7 +4,7 @@ label: time status information, such as estimated departure and arrival times of
 definition: the minimum dynamic information required for providing further details about the operational status of transport services.
 category: Level of service 1
 language: en
-status: under review
+status: proposed
 source: DR_EU_2024-490
 subcategory:
   - Passing times, trip plans and auxiliary information

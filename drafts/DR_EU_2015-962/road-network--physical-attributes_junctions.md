@@ -4,7 +4,7 @@ label: junctions
 definition: the minimum information required for identifying the location of a junction and its relationship with the remaining entities of the road network.
 category: Static data
 language: en
-status: accepted
+status: proposed
 source: DR_EU_2015-962
 subcategory:
   - Road network links and their physical attributes

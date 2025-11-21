@@ -4,7 +4,7 @@ label: network topology and routes/lines (topology)
 definition: the minimum information required for indicating the topology of the service network of scheduled transport or transport on demand modes, essential for trip plan computation purposes.
 category: Level of Service 1
 language: en
-status: under review
+status: proposed
 source: DR_EU_2024-490
 subcategory:
   - Trip plan computation

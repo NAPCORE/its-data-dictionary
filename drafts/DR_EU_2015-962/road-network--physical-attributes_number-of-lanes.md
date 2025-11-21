@@ -4,7 +4,7 @@ label: number of lanes
 definition: the minimum information required for indicating the number of lanes of a road network’s links.
 category: Static data
 language: en
-status: accepted
+status: proposed
 source: DR_EU_2015-962
 subcategory:
   - Road network links and their physical attributes

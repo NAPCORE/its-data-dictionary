@@ -4,7 +4,7 @@ label: location of of refuelling points and stations for all other fuel types
 definition: the minimum information required for disseminating the geographic location of refuelling points and stations, encompassing other (than the above) fuel types (e.g., gasoline, diesel, biodiesel).
 category: Types of data on infrastructure
 language: en
-status: accepted
+status: proposed
 source: DR_EU_2022-670
 ---
 

@@ -4,7 +4,7 @@ label: operational calendar, mapping day types to calendar dates
 definition: the minimum information required to indicate the days or periods when transportation services are operational.
 category: Level of Service 1
 language: en
-status: under review
+status: proposed
 source: DR_EU_2024-490
 subcategory:
   - Trip plans

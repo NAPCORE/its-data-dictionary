@@ -4,7 +4,7 @@ label: estimated travel times by day type and time-band by transport mode/combin
 definition: the minimum set of information required for calculating the estimated travel times by transport mode or even combination of transport modes considering recurring conditions at/in specific time bands and day types.
 category: Level of service 3
 language: en
-status: under review
+status: proposed
 source: DR_EU_2024-490
 subcategory:
   - Trip plan computation

@@ -4,7 +4,7 @@ label: common fare products (access rights such as zone/point-to-point including
 definition: the minimum set information about common fare products required for supporting fare queries.
 category: Level of service 3
 language: en
-status: under review
+status: proposed
 source: DR_EU_2024-490
 subcategory:
   - Detailed common standard and special fare query

@@ -4,7 +4,7 @@ label: cycle network (cycle tracks, cycle lanes, bus-and-cycle lanes, on-road sh
 definition: the minimum information required for describing the topological structure and attributes of cycle networks, essential for trip plan computation purposes.
 category: Level of Service 1
 language: en
-status: under review
+status: proposed
 source: DR_EU_2024-490
 subcategory:
   - Trip plan computation
