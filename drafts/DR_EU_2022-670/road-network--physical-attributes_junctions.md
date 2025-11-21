@@ -14,7 +14,7 @@ subcategory:
 
 >The relationship of a given junction with the remaining network can be expressed via the indication of the whether it is a start/end junction of a given link.
 
-![Figure](../../images/road-network--physical-attributes_junctions.png)
+![Figure](../assets/img/road-network--physical-attributes_junctions.png)
 
 >Reference/additional info: https://inspire.ec.europa.eu/id/document/tg/tn
 

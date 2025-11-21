@@ -31,7 +31,7 @@ The work on **transport-related concepts** aka **data types** is done in the `dr
 - [`drafts/README.md`](drafts/README.md) for the detailed instructions on drafting and content of data dictionary definitions. 
 - [`drafts/INDEX.md`](drafts/INDEX.md) to view the statuses of all data dictionary items.
 - [`drafts/WORKFLOW.md`](drafts/WORKFLOW.md) to view the process of updating the terms.
-- [`drafts/preview/README.md`](`drafts/preview/README.md`) – review file of data types definitions, one per delegated regulation
+- [`drafts/preview/README.md`](drafts/preview/README.md) – review file of data types definitions, one per delegated regulation
 
 ## 🌍 Published Outputs
 
