@@ -8,9 +8,9 @@
 A structured dictionary of **transport-related concepts** defined in delegated regulations of the [ITS Directive](https://eur-lex.europa.eu/eli/dir/2010/40/oj/eng), managed in Markdown. Includes human-readable previews, releases and machine-readable RDF.
 This repository serves for development and publishing of the data dictionary. 
 
-## 🧭 Data Dictionary Index
+## 🧭 Data Dictionary Release files
 
-Data Dictionary items are grouped by delegated regulation they appear in to the separate file. Available as stable **release version [here](./release/README.md)** or **draft development version [here](./draft/preview/README.md)**
+Data Dictionary items are grouped by delegated regulation they appear in to the separate file. Available as stable **release version [here](./release/README.md)** or **draft development version [here](./drafts/preview/README.md)**
 
 | Abbreviation | Full Title & Regulation No.                          | 📂 Link to release version    |
 |--------------|------------------------------------------------------|-----------------------------|
@@ -33,15 +33,14 @@ The work on **transport-related concepts** aka **data types** is done in the `dr
 
 ## 🌍 Published Outputs
 
-- 📦 Release Dictionaries:  [`release/README.md`](release/README.md)
-- 🐢 RDF Vocabularies: [`vocab/`](vocab/)
+- 📦 Release Dictionaries:  [`release/README.md`](./release/README.md)
 
 ## 📁 Repository Structure
 
 - `./drafts/`: Individual Markdown entries grouped by delegated regulation including Auto-generated index file and browsable pre-view files (one per DR)
 - `./release/`: Final published dictionary for each tagged version
 - `assets/`: Python scripts, original dictionary release 
-- `./(draft|release)/assets/(img|code)/`: Optional media and supporting examples
+- `./(drafts|release)/assets/(img|code)/`: Optional media and supporting examples
 
 ## 🚀 Workflow Automation 
 
@@ -50,6 +49,7 @@ To create an updated index file [`drafts/INDEX.md`](drafts/INDEX.md) and preview
 ```bash
 uv run assets\scripts\generate_preview.py
 ```
+
 To create new versioned release file of data types definitions, one per delegated regulation `release/DR_*.md` and SKOS-formatted RDF files from data types strict-definitions `vocab/<DR>/<item>.ttl` run:
 
 ```bash
@@ -58,6 +58,7 @@ git push origin v1.0.0
 
 uv run assets\scripts\generate_release.py
 ```
+
 ## 💬 License & Contributions
 
 Open-source under the MIT License. Contributions are welcome—just submit a PR or open an issue.
