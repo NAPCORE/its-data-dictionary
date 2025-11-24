@@ -10,9 +10,9 @@ This repository serves for development and publishing of the data dictionary.
 
 ## 🧭 Data Dictionary Index
 
-Data Dictionary items are grouped by delegated regulation they appear in to the separate file. Available as stable **release** [here](./release/README.md) or draft development version [here](./release/preview/README.md)
+Data Dictionary items are grouped by delegated regulation they appear in to the separate file. Available as stable **release version [here](./release/README.md)** or **draft development version [here](./draft/preview/README.md)**
 
-| Abbreviation | Full Title & Regulation No.                          | 📂 Link                     |
+| Abbreviation | Full Title & Regulation No.                          | 📂 Link to release version    |
 |--------------|------------------------------------------------------|-----------------------------|
 | 🛑 **SRTI**  | Safety-Related Traffic Information *(DR 886/2013)*   | [View Vocabulary →](./release/DR_EU_886-2013.md) |
 | 🧭 **MMTIS** | Multimodal Travel Information Services *(DR 2024/490)* | [View Vocabulary →](./release/DR_EU_2024-490.md) |
@@ -20,7 +20,7 @@ Data Dictionary items are grouped by delegated regulation they appear in to the 
 | 🚙 **RTTI**  | Real-Time Traffic Information *(DR 2022/670)*        | [View Vocabulary →](./release/DR_EU_2022-670.md) |
 | 🏁 **SSTP**  | Safe and Secure Truck Parking *(DR 885/2013)*       | [View Vocabulary →](./release/DR_EU_885-2013.md) |
 
-NOTE: release could be also accessed as a downloadable artefact in releases GitHub functionality.
+NOTE: release could be also accessed as a downloadable artefact in [releases](https://github.com/NAPCORE/its-data-dictionary/releases) GitHub functionality.
 
 ## 🛠 Content Creation
 
@@ -38,11 +38,10 @@ The work on **transport-related concepts** aka **data types** is done in the `dr
 
 ## 📁 Repository Structure
 
-- `drafts/`: Individual Markdown entries grouped by delegated regulation including Auto-generated index file and browsable pre-view files (one per DR)
-- `release/`: Final published dictionary for each tagged version
-- `vocab/`: RDF files (Turtle format) for each concept
-- `scripts/`: Python automation for preview and release generation
-- `images/`, `code/`: Optional media and supporting examples
+- `./drafts/`: Individual Markdown entries grouped by delegated regulation including Auto-generated index file and browsable pre-view files (one per DR)
+- `./release/`: Final published dictionary for each tagged version
+- `assets/`: Python scripts, original dictionary release 
+- `./(draft|release)/assets/(img|code)/`: Optional media and supporting examples
 
 ## 🚀 Workflow Automation 
 

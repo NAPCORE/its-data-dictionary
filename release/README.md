@@ -1,10 +1,12 @@
 # Release Folder 📦
 
-Contains _automatically_ generated files containing approved dictionary entries merged into a single file pre delegated regulation.
+Contains a script generated files containing approved dictionary entries merged into a single file pre delegated regulation.
 
-## 🧭 Vocabulary Index
+## 🧭 Release Data Definitions and Index
 
-| Abbreviation | Full Title & Regulation No.                          | 📂 Link                     |
+**List of release data types definitions**: TO BE ADDED
+
+| Abbreviation | Full Title & Regulation No.                          | 📂 Link to release version     |
 |--------------|------------------------------------------------------|-----------------------------|
 | 🛑 **SRTI**  | Safety-Related Traffic Information *(DR 886/2013)*   | [View Vocabulary →](DR_EU_886-2013.md) |
 | 🧭 **MMTIS** | Multimodal Travel Information Services *(DR 2024/490)* | [View Vocabulary →](DR_EU_2024-490.md) |
@@ -12,10 +14,5 @@ Contains _automatically_ generated files containing approved dictionary entries 
 | 🚙 **RTTI**  | Real-Time Traffic Information *(DR 2022/670)*        | [View Vocabulary →](DR_EU_2022-670.md) |
 | 🏁 **SSTP**  | Safe and Secure Truck Parking *(DR 885/2013)*       | [View Vocabulary →](DR_EU_885-2013.md) |
 
----
 
-To generate it locally run
 
-```bash
-python scripts/generate_release.py
-```

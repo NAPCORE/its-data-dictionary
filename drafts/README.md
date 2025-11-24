@@ -23,6 +23,7 @@ Each file must:
 | category | Domain or grouping the concept belongs to | 
 | language | Language code of the definition (e.g. en) | 
 | status | Approval state (draft, review, approved, etc.) | 
+| note* | *optional; Note on the status - if deprecated (archived) | 
 | source | Citable source or reference (standard, report, etc.) | 
 | subcategory | **list of** sub grouping the concept belongs to |
 
@@ -33,9 +34,9 @@ Drafts are manually edited and commented upon via GitHub issues.
 
 **Workflow including statuses is in detail described in** [WORKFLOW](WORKFLOW.md).
 
-Previews are auto-generated in each commit by `generate_preview.py` in the [PREVIEW](./preview/README.md) folder
+Previews are manually generated after the commit by `generate_preview.py` in the [PREVIEW](./preview/README.md) folder
 
-Releases are auto-generated when committing a version tag by `generate_releease.py`. in the [RELEASE](../release/README.md)
+Releases are manually generated after committing a version tag by `generate_releease.py`. in the [RELEASE](../release/README.md)
 
 ## 🧠 Examples
 
