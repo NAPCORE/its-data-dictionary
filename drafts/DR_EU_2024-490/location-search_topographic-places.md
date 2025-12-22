@@ -4,25 +4,28 @@ label: topographic places (city, town, village, suburb, administrative unit)
 definition: the minimum information required for matching wider locations (e.g., areas, regions, localities, cities, suburbs, towns, administrative units, or settlements) as trip origins and destinations based on their name.
 category: Level of Service 1
 language: en
-status: proposed
+status: finalised
 source: DR_EU_2024-490
 subcategory:
   - Location search (origin_destination)
 ---
 
->The names of settlements, counties, etc., are of importance for locating trip endpoints, namely for the distinction of place names that are not globally unique.
+## NOTES
 
->The following data needs to be provided for topographic places:\
-• Identifier (must be globally unique)\
-• Name\
-• Coordinates (Centroid)\
-• Topographic or address identifiers\
-• Category or classification
+The names of settlements, counties, etc., are of importance for locating trip endpoints, namely for the distinction of place names that are not globally unique. 
 
->The following data is optional for an address:\
-• External identifiers (e.g., for OSM) (KeyList)\
-• Area\
-• Validity
+The following data needs to be provided for topographic places: 
+- Identifier (must be globally unique) 
+- Name 
+- Coordinates (Centroid) 
+- Topographic or address identifiers 
+- Category or classification 
+
+The following data is optional for an address: 
+
+- External identifiers (e.g., for OSM) (KeyList) 
+- Area 
+- Validity
 
 <table style="font-size: smaller; width: 100%;">
   <tr>
@@ -34,5 +37,10 @@ subcategory:
   </tr>
 </table>
 
->References/additional info: EN12896-1 (see https://www.transmodel-cen.eu); CEN/TS 16614-1 (see https://netex-cen.eu); https://publications.jrc.ec.europa.eu/repository/handle/JRC118744
+## BEST PRACTICES 
 
+According to the previous study done on INSPIRE and other relevant European standards on mobility, the reference profile for Topographic Places is INSPIRE: https://publications.jrc.ec.europa.eu/repository/handle/JRC118744  
+
+## References/additional info
+
+EN12896-1 (see https://www.transmodel-cen.eu); CEN/TS 16614-1 (see https://netex-cen.eu); https://publications.jrc.ec.europa.eu/repository/handle/JRC118744 
