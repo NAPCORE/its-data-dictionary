@@ -10,7 +10,7 @@ subcategory:
   - Location search (origin_destination)
 ---
 
-## NOTES
+## DETAILED DEFINITION
 
 The coordinates and/or address identifiers of any point of interest (POI) that are relevant to travellers. For example, a museum, a theatre, or a shopping mall. The following POI should be (at least) provided: 
 
@@ -77,7 +77,18 @@ The following data define a point of Interest:
 
 [1]: https://wiki.openstreetmap.org/wiki/Map_features
 
-### EXAMPLE: NeTEx - [tour d’Eiffel][2]
+### IMPLEMENTING SERVICES 
+
+- Journey Planners 
+- Geocoders 
+
+### RELEVANT STANDARDS & LEGISLATION 
+
+- EU/1926/2017 
+- EU/885/2013 
+- EU/40/2010 
+
+## EXAMPLE: NeTEx - [tour d’Eiffel][2]
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
@@ -142,17 +153,6 @@ The following data define a point of Interest:
 ```
 
 [2]: https://www.openstreetmap.org/way/5013364#map=19/48.85826/2.29451
-
-### IMPLEMENTING SERVICES 
-
-- Journey Planners 
-- Geocoders 
-
-### RELEVANT STANDARDS & LEGISLATION 
-
-- EU/1926/2017 
-- EU/885/2013 
-- EU/40/2010 
 
 ## References/additional info
 
