@@ -10,7 +10,7 @@ subcategory:
   - Location search (origin_destination)
 ---
 
-## NOTES
+## Detailed definition
 
 The names of settlements, counties, etc., are of importance for locating trip endpoints, namely for the distinction of place names that are not globally unique. 
 
@@ -37,7 +37,7 @@ The following data is optional for an address:
   </tr>
 </table>
 
-## BEST PRACTICES 
+## Best pracitices 
 
 According to the previous study done on INSPIRE and other relevant European standards on mobility, the reference profile for Topographic Places is INSPIRE: https://publications.jrc.ec.europa.eu/repository/handle/JRC118744  
 
