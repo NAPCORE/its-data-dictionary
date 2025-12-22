@@ -1,5 +1,5 @@
 ---
-id: location-search_points-of--to-travel
+id: location-search_points-of-interest
 label: points of interest (related to transport information) to which people may wish to travel
 definition: the minimum information required for matching specific locations of interest (e.g., amenities, landmarks, tourist attractions) as trip origins and destinations (covers DR(EU)1926/2017 1.b.c).
 category: Level of Service 1
