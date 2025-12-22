@@ -10,7 +10,7 @@ subcategory:
   - Location search (origin_destination)
 ---
 
-## DETAILED DEFINITION
+## Detailed definition
 
 The coordinates and/or address identifiers of any point of interest (POI) that are relevant to travellers. For example, a museum, a theatre, or a shopping mall. The following POI should be (at least) provided: 
 
@@ -38,7 +38,7 @@ The coordinates and/or address identifiers of any point of interest (POI) that a
   </tr>
 </table>
 
-## BEST PRACTICES
+## Best practices
 
 Be aware that there might exist temporary POI as well (e.g. a circus). 
 Be aware that some locations are considered as input to trip planners but are not POI in the narrower sense. They are also not modelled as POI, but should still contain the relevant information in their respective data types (e.g. stations, charging stations, parking): 
@@ -49,14 +49,14 @@ Be aware that some locations are considered as input to trip planners but are no
 - Charging stations, gas stations (personal operated vehicles): covered under DR EU 2022/670 “provision of EU-wide real-time traffic information services” 
 - Public transport stops (see section on stops) 
 
-### PROCEDURES 
+### Procedures
 
 - The data must follow NeTEx Part 4 (EN 12896-4, European Passenger Information Profile, EPIP) in the structure for the data export. 
 - An export as Open Journey Planner (OJP) Location Information is also possible (TS17118, version 2). 
 - The data must be actualized at least once a year. In the ideal case any update to a POI (content, existence, coordinates) should be available on the following day. 
 - The POI are synchronized with the ones in readily available geobases (e.g. OpenStreetMap) and the national geobases. 
 
-### DATA STRUCTURE 
+### Data structure 
 
 The following data define a point of Interest: 
 
@@ -77,18 +77,18 @@ The following data define a point of Interest:
 
 [1]: https://wiki.openstreetmap.org/wiki/Map_features
 
-### IMPLEMENTING SERVICES 
+### Implementing services 
 
 - Journey Planners 
 - Geocoders 
 
-### RELEVANT STANDARDS & LEGISLATION 
+### Relevant standards and legislation 
 
 - EU/1926/2017 
 - EU/885/2013 
 - EU/40/2010 
 
-## EXAMPLE: NeTEx - [tour d’Eiffel][2]
+## Example: NeTEx - [tour d’Eiffel][2]
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
@@ -158,4 +158,4 @@ The following data define a point of Interest:
 
 EN12896-2 (see see www.transmodel-cen.eu); CEN/TS 16614-1 (see https://netex-cen.eu); https://publications.jrc.ec.europa.eu/repository/handle/JRC118744 This report clarifies that INSPIRE can be considered as reference standard only for a limited set of POI categories (Utilities and Governmental Services (US), Buildings (BU), and Protected Sites (PS)), each of which has its own specific data model.
 
-[View Code Sample](../assets/code/location-search_points-of--to-travel_snippet_1.xml)
+[View Code Sample](../assets/code/location-search_points-of-interest_snippet_1.xml)
