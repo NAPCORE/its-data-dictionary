@@ -10,7 +10,7 @@ subcategory:
   - Location search (origin_destination)
 ---
 
-## NOTES
+## Detailed definition
 
 The following data needs to be provided for an address:
 
@@ -41,7 +41,7 @@ The following data is optional for an address:
   </tr>
 </table>
 
-## BEST PRACTICES
+## Best practices
 
 - Addresses that appear in this data type are mostly relevant to the postal address. 
 - Examples of this are: building numbers, street numbers, postcodes linked with coordinates or other location references (coordinates will be supplied according to WGS84). 
