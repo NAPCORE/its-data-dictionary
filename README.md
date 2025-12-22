@@ -3,7 +3,9 @@
 ![Version](https://img.shields.io/github/v/tag/NAPCORE/its-data-dictionary?label=version&style=flat-square)
 ![License](https://img.shields.io/github/license/NAPCORE/its-data-dictionary?style=flat-square)
 ![Last Commit](https://img.shields.io/github/last-commit/NAPCORE/its-data-dictionary?style=flat-square)
-![Issues](https://img.shields.io/github/issues/NAPCORE/its-data-dictionary?style=flat-square)
+![Open Issues](https://img.shields.io/github/issues/NAPCORE/its-data-dictionary?style=flat-square)
+![Closed Issues](https://img.shields.io/github/issues-closed/NAPCORE/its-data-dictionary?style=flat-square)
+
 
 A structured dictionary of **transport-related concepts** defined in delegated regulations of the [ITS Directive](https://eur-lex.europa.eu/eli/dir/2010/40/oj/eng), managed in Markdown. Includes human-readable previews, releases and machine-readable RDF.
 This repository serves for development and publishing of the data dictionary. 
